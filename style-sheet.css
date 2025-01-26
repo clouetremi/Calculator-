@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+}
+
+
+button {
+    height: 100px;
+    flex-grow: 1;
+}
+
+.layerFour, .layerThree, .layerTwo, .layerOne, .layerZero{
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    width: 35%;
+};
+
+
+
