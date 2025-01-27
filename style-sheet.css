@@ -1,7 +1,16 @@
 body{
     display: flex;
     flex-direction: column-reverse;
+}
+
+p{
+    font-style: italic;
     justify-content: center;
+    border: 1px black solid;
+    width: 340px;
+    margin-bottom: 0px;
+    background-color: rgba(13, 0, 189, 0.2);
+
 }
 
 
@@ -10,10 +19,14 @@ button {
     flex-grow: 1;
 }
 
+button:hover{
+background-color: rgba(0, 0, 255, 0.2);
+}
+
 .layerFour, .layerThree, .layerTwo, .layerOne, .layerZero{
     display: flex;
     justify-content: center;
-    flex-grow: 1;
+    flex-grow: 1; 
     width: 35%;
 };
 
